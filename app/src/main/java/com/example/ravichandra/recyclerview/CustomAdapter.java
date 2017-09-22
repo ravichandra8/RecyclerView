@@ -61,7 +61,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 //            //remove the list item
 //            values.remove(getAdapterPosition());
 //            notifyItemRemoved(getAdapterPosition());
-            
+
            if (clickListener != null) clickListener.itemClicked(view, getAdapterPosition());
         }
     }
